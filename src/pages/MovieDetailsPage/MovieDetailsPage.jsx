@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams, Link, Outlet, useNavigate, useLocation } from "react-router-dom"; 
 import styles from '../MovieDetailsPage/MovieDetailsPage.module.css'
 
-const apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTc4M2NhY2NjODAxMzkwZjk5M2IyNDE4NzdhMDY2MyIsInN1YiI6IjY2MjdhN2ZhZTI5NWI0MDE4NzljZjY4ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2PzCFQc8m_aJaiNO7fOHPPsMW3LkOBf4ERHC_TeQryQ"; 
+const apiKey = "25783caccc801390f993b241877a0663"; 
 const apiUrl = "https://api.themoviedb.org/3";
 
 const MovieDetailsPage = () => {

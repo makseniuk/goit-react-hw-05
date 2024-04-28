@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiKey = "25783caccc801390f993b241877a0663";
-const apiUrl = "https://api.themoviedb.org/3";
+const apiUrl = "https://api.themoviedb.org/3/trending/movie/day?language=en-US";
 
 const getTrendingMovies = async () => {
   try {

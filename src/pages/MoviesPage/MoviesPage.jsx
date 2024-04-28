@@ -5,7 +5,7 @@ import MovieList from "../../components/MovieList/MovieList.jsx";
 import styles from "../MoviesPage/MoviesPages.module.css";
 
 const apiKey = "25783caccc801390f993b241877a0663";
-const apiUrl = "https://api.themoviedb.org/3";
+const apiUrl = "https://api.themoviedb.org/3/trending/movie/day?language=en-US";
 
 const MoviesPage = () => {
   const [query, setQuery] = useState("");
